@@ -15,6 +15,8 @@
 		9EDAC1AE252642D800C28E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDAC1AC252642D800C28E14 /* LaunchScreen.storyboard */; };
 		9EDAC1B9252642D800C28E14 /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDAC1B8252642D800C28E14 /* WebViewTests.swift */; };
 		9EDAC1C4252642D800C28E14 /* WebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDAC1C3252642D800C28E14 /* WebViewUITests.swift */; };
+		9EDAC1D5252647D600C28E14 /* success.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDAC1D4252647D600C28E14 /* success.storyboard */; };
+		9EDAC1DA252647F500C28E14 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDAC1D9252647F500C28E14 /* SuccessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9EDAC1BF252642D800C28E14 /* WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDAC1C3252642D800C28E14 /* WebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewUITests.swift; sourceTree = "<group>"; };
 		9EDAC1C5252642D800C28E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDAC1D4252647D600C28E14 /* success.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = success.storyboard; sourceTree = "<group>"; };
+		9EDAC1D9252647F500C28E14 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				9EDAC1A1252642D100C28E14 /* AppDelegate.swift */,
+				9EDAC1D9252647F500C28E14 /* SuccessViewController.swift */,
 				9EDAC1A3252642D100C28E14 /* SceneDelegate.swift */,
 				9EDAC1A5252642D100C28E14 /* ViewController.swift */,
 				9EDAC1A7252642D100C28E14 /* Main.storyboard */,
 				9EDAC1AA252642D800C28E14 /* Assets.xcassets */,
 				9EDAC1AC252642D800C28E14 /* LaunchScreen.storyboard */,
 				9EDAC1AF252642D800C28E14 /* Info.plist */,
+				9EDAC1D4252647D600C28E14 /* success.storyboard */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				9EDAC1AE252642D800C28E14 /* LaunchScreen.storyboard in Resources */,
 				9EDAC1AB252642D800C28E14 /* Assets.xcassets in Resources */,
+				9EDAC1D5252647D600C28E14 /* success.storyboard in Resources */,
 				9EDAC1A9252642D100C28E14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				9EDAC1A6252642D100C28E14 /* ViewController.swift in Sources */,
 				9EDAC1A2252642D100C28E14 /* AppDelegate.swift in Sources */,
+				9EDAC1DA252647F500C28E14 /* SuccessViewController.swift in Sources */,
 				9EDAC1A4252642D100C28E14 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
